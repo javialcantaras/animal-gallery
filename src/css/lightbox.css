@@ -1,0 +1,57 @@
+.visible {
+  visibility: visible
+}
+
+.hidden {
+  visibility: hidden
+}
+
+.background {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  container: center;
+}
+
+.closeButton {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  top: 15px;
+  right: 15px;
+  outline: none;
+  color: white;
+}
+
+.img-lightbox {
+  width: 100%;
+}
+
+.content {
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fefefe;
+  margin: auto;
+  width: 90%;
+  max-width: 450px;
+}
+
+.info {
+  margin: 0px 10px 5px;
+  height: 100%;
+}
+
+.title {
+  margin: 0px;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,18 @@
+.pagination {
+  text-align: center;
+}
+
+.pages {
+  margin: 0px 20px;
+}
+
+button {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5px;
+}

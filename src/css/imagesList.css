@@ -1,0 +1,32 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  position: relative;
+  margin: 2px;
+  list-style-type: none;
+  height: 300px;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 0px;
+  padding: 0px;
+}
+
+.username {
+  position: absolute;
+  background-color: rgba(0,0,0,0.6);
+  padding: 4px;
+  bottom: 10px;
+  font-size: 12px;
+}
+
+.username:hover {
+  background-color: rgba(0,0,0,1);
+}
